@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"/>
+        <link rel="stylesheet" href="./general-styles.css">
+        <link rel="stylesheet" href="./product-page-style.css">
+        <title>Monstervolt</title>
+    </head>
+    <body>
+        <header class="header" id="linkToTop">
+            <section class="main-navigation__section">
+                <div class="container">
+                    <div class="main-navigation__container main-navigation__container--desktop">
+                        <nav>
+                            <ul class="main-navigation__list">
+                                <li class="main-navigation__item">
+                                    <a href="" class="main-navigation__link">Контакты</a>
+                                </li>
+                                <li class="main-navigation__item">
+                                    <a href="" class="main-navigation__link">О магазине</a>
+                                </li>
+                                <li class="main-navigation__item">
+                                    <a href="" class="main-navigation__link">Доставка и оплата</a>
+                                </li>
+                                <li class="main-navigation__item">
+                                    <a href="" class="main-navigation__link">Условия соглашения</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <address class="main-navigation__address">г. Москва и МО</address>
+                        <a href="/" class="main-navigation__enter">Вход/Регистрация</a>
+                    </div>
+                    <div class="container main-navigation__container main-navigation__container--mobile">
+                        <div>
+                            <button class="main-navigation__burger-menu"></button>
+                            <ul class="navigation__list navigation__list--mobile">
+                                <li>
+                                    <a href="" class="navigation__link--catalog">КАТАЛОГ ТОВАРОВ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">СВЕТИЛЬНИКИ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">КАБЕЛЕНЕСУЩИЕ СИСТЕМЫ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">КАБЕЛИ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">БОКСЫ И ЩИТЫ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">ОСВЕЩЕНИЕ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">ЛАМПЫ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">ТЕПЛЫЕ ПОЛЫ</a>
+                                </li>
+                                <li>
+                                    <a href="" class="navigation__link">ПРОИЗВОДИТЕЛИ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="" class="main-navigation__link-info"></a>
+                        <a href="" class="main-navigation__link-enter"></a>
+                        <button class="main-navigation__button-search"></button>
+                        <div class="main-navigation__search-bar">
+                            <input type="text" class="main-navigation__search-bar-input" placeholder="Поиск товара по каталогу">
+                            <button class="main-navigation__search-bar-button-close"></button>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <section class="action-bar__section">
+                <div class="container action-bar__container">
+                    <a href="/" class="action-bar__logo"></a>
+                    <div class="action-bar__search">
+                        <div class="action-bar__search-category dropdown-style">Все категории</div>
+                        <form class="action-bar__search-form">
+                            <input type="text" class="action-bar__search-form-input" name="text" class="search" placeholder="Поиск товара по каталогу">
+                            <button type="submit" class="action-bar__search-form-button"></button>
+                        </form>
+                    </div>
+                    <div class="action-bar__call">
+                        <a href="" class="action-bar__call-number">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_9_1568)">
+                                <path d="M19.9688 15.1171L19.0605 19.0546C18.933 19.6112 18.4438 20.0007 17.8707 20.0007C8.01562 19.9999 0 11.9843 0 2.12879C0 1.55613 0.389414 1.06629 0.946094 0.939332L4.88359 0.031129C5.45703 -0.101762 6.04297 0.195895 6.28125 0.738941L8.09844 4.97722C8.31086 5.47644 8.16758 6.05808 7.74766 6.40105L5.64453 8.08972C6.97188 10.7936 9.17031 12.9921 11.875 14.3202L13.5969 12.2186C13.9362 11.7975 14.5223 11.6518 15.0215 11.868L19.2598 13.6848C19.7695 13.953 20.1016 14.5468 19.9688 15.1171Z" fill="#215BD4"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_9_1568">
+                                <rect width="20" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            <p class="action-bar__call-tel">+7 (495) 785-35-05</p>
+                        </a>
+                        <a href="" class="action-bar__call-order">ЗАКАЗАТЬ ЗВОНОК</a>
+                    </div>
+                    <div class="action-bar__action-icons">
+                        <a href="" class="action-bar__action-icon--compare action-bar__action-icon">
+                            <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_9_805)">
+                                <path d="M1.39999 21.8C0.599994 21.8 0 21.2 0 20.4V13.7C0 12.9 0.599994 12.3 1.39999 12.3C2.19999 12.3 2.80002 12.9 2.80002 13.7V20.4C2.80002 21.2 2.19999 21.8 1.39999 21.8Z" fill="#215BD4"/>
+                                <path d="M7.29999 21.9C6.49999 21.9 5.89996 21.3 5.89996 20.5V1.29999C5.89996 0.499988 6.49999 -0.100006 7.29999 -0.100006C8.09999 -0.100006 8.69998 0.499988 8.69998 1.29999V20.5C8.69998 21.3 8.09999 21.9 7.29999 21.9Z" fill="#215BD4"/>
+                                <path d="M13.6 21.6C12.8 21.6 12.2 21 12.2 20.2V7.10001C12.2 6.30001 12.8 5.70001 13.6 5.70001C14.4 5.70001 15 6.30001 15 7.10001V20.2C15 21 14.4 21.6 13.6 21.6Z" fill="#215BD4"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_9_805">
+                                <rect width="15" height="22" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>                            
+                        </a>
+                        <a href="" class="action-bar__action-icon--favorite action-bar__action-icon">
+                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.3094 3.72852C13.791 3.72852 12.3984 4.43828 11.5 5.60625C10.6016 4.43828 9.20898 3.72852 7.69062 3.72852C5.03574 3.72852 2.875 5.89824 2.875 8.5666C2.875 9.81992 3.35117 11.0104 4.21816 11.9178L11.0104 18.7773L11.5 19.2715L11.9896 18.7773L18.6516 12.048C19.5949 11.1361 20.125 9.89629 20.125 8.5666C20.125 5.89824 17.9643 3.72852 15.3094 3.72852Z" fill="#215BD4"/>
+                            </svg>
+                        </a>
+                        <a href="" class="action-bar__action-icon--basket action-bar__action-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.92 7.24999V7.37999L20.46 12.78C20.2875 13.4209 19.9072 13.9865 19.3788 14.3883C18.8504 14.79 18.2037 15.0051 17.54 15H9.89001C9.139 15.003 8.41417 14.7243 7.85871 14.2188C7.30326 13.7134 6.95759 13.018 6.89001 12.27L6.24001 4.90999C6.21748 4.66067 6.10226 4.42887 5.91711 4.26038C5.73195 4.09189 5.49034 3.99898 5.24001 3.99999H3.07001C2.80479 3.99999 2.55044 3.89464 2.3629 3.7071C2.17536 3.51956 2.07001 3.26521 2.07001 2.99999C2.07001 2.73478 2.17536 2.48042 2.3629 2.29289C2.55044 2.10535 2.80479 1.99999 3.07001 1.99999H5.24001C5.99101 1.99695 6.71585 2.27569 7.2713 2.78115C7.82676 3.28662 8.17242 3.98203 8.24001 4.72999V4.99999H19.93C20.2151 4.99776 20.4973 5.05649 20.7578 5.17225C21.0184 5.28802 21.2511 5.45813 21.4405 5.67121C21.6299 5.88428 21.7716 6.13537 21.856 6.40767C21.9404 6.67996 21.9657 6.96715 21.93 7.24999H21.92Z" fill="#215BD4"/>
+                                <path d="M9.07001 22C10.4507 22 11.57 20.8807 11.57 19.5C11.57 18.1193 10.4507 17 9.07001 17C7.68929 17 6.57001 18.1193 6.57001 19.5C6.57001 20.8807 7.68929 22 9.07001 22Z" fill="#215BD4"/>
+                                <path d="M17.07 22C18.4507 22 19.57 20.8807 19.57 19.5C19.57 18.1193 18.4507 17 17.07 17C15.6893 17 14.57 18.1193 14.57 19.5C14.57 20.8807 15.6893 22 17.07 22Z" fill="#215BD4"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="navigation__section">
+                <div class="container navigation__container">
+                    <ul class="navigation__list navigation__list--desktop">
+                        <li>
+                            <a href="" class="navigation__link--catalog">КАТАЛОГ ТОВАРОВ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">СВЕТИЛЬНИКИ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">КАБЕЛЕНЕСУЩИЕ СИСТЕМЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">КАБЕЛИ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">БОКСЫ И ЩИТЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">ОСВЕЩЕНИЕ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">ЛАМПЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">ТЕПЛЫЕ ПОЛЫ</a>
+                        </li>
+                        <li>
+                            <a href="" class="navigation__link">ПРОИЗВОДИТЕЛИ</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="breadcrumbs__section">
+                <div class="container">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="/" class="breadcrumbs__link">Магазин электрики</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="/products-list-page.html" class="breadcrumbs__link">Кабели и провода</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="/products-list-page.html" class="breadcrumbs__link">Кабели высокого напряжения</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a class="breadcrumbs__link--last">Выключатель автоматический дифференциального тока 2п C 25А 30мА тип AC 6кА RX3 Leg 419401</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="product-info__section">
+                <div class="container product-info__container">
+                    <ul class="product-info__nav-list">
+                        <li class="product-info__nav-item">
+                            <a href="#linkToTop" class="product-info__nav-link product-info__nav-link--1">Наверх</a>
+                        </li>
+                        <li class="product-info__nav-item">
+                            <a href="#linkAbout" class="product-info__nav-link product-info__nav-link--2">О товаре</a>
+                        </li>
+                        <li class="product-info__nav-item">
+                            <a href="#linkHaracteristics" class="product-info__nav-link product-info__nav-link--3">Характеристики</a>
+                        </li>
+                        <li class="product-info__nav-item">
+                            <a href="#linkDescription" class="product-info__nav-link product-info__nav-link--4">Описание</a>
+                        </li>
+                        <li class="product-info__nav-item">
+                            <a href="#linkQuestions" class="product-info__nav-link product-info__nav-link--5">Вопросы</a>
+                        </li>
+                        <li class="product-info__nav-item">
+                            <a href="#linkDelivery" class="product-info__nav-link product-info__nav-link--6">Способы получения</a>
+                        </li>
+                        <li class="product-info__nav-item">
+                            <a href="#linkRecommendedProducts" class="product-info__nav-link product-info__nav-link--7">Рекомендуемые товары</a>
+                        </li>
+                    </ul>
+                    <div class="product-info__content-section-wrapper">
+                        <section class="product-info__content-section" id="linkAbout">
+                            <h1 class="product-info__content-h1">Выключатель автоматический дифференциального тока 2п C 25А 30мА тип AC 6кА RX3 Leg 419401</h1>
+                            <div class="product-info__content-wrapper">
+                                <div class="product-info__content-swiper">
+                                    <div class="product-info__slider">
+                                        <div class="product-info__slide-container">
+                                            <img src="./images/product-info__img.png" alt="" class="">
+                                        </div>
+                                        <div class="product-info__slide-container"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-container"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-container"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-container"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-container"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                    </div>
+                                    <div class="product-info__slider-nav">
+                                        <div class="product-info__slide-btn"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-btn"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-btn"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-btn"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-btn"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                        <div class="product-info__slide-btn"><img src="./images/product-info__img.png" alt="" class=""></div>
+                                    </div>
+                                </div>
+                                <section class="product-info__content-main-characteristics">
+                                    <h2 class="product-info__content-h2">Характеристики</h2>
+                                    <p class="product-info__content-text">Глубина монтажа, установки:  <span class="product-info__content-text--bold">44mm</span>
+                                    </p>
+                                    <p class="product-info__content-text">Номинальная отключающая способность в соответствии с EN 60898: <span class="product-info__content-text--bold">6 кА</span></p>
+                                    <p class="product-info__content-text">Номинальное напряжение: <span class="product-info__content-text--bold">230B</span></p>
+                                    <p class="product-info__content-text">Характеристика срабатывания: <span class="product-info__content-text--bold">C</span></p>
+                                    <p class="product-info__content-text">Для скрытого монтажа:  <span class="product-info__content-text--bold">Нет</span></p>
+                                    <a href="" class="product-info__content-link">Все характеристики >>></a>
+                                </section>
+                            </div>
+                            <div class="product-info__content-wrapper" id="linkHaracteristics">
+                                <section class="product-info__content-technical-characteristics">
+                                    <h2 class="product-info__content-h2" >Технические характеристики</h2>
+                                    <p class="product-info__content-text">Глубина монтажа, установки:  <span class="product-info__content-text--bold">44mm</span>
+                                    </p>
+                                    <p class="product-info__content-text">Номинальная отключающая способность в соответствии с EN 60898: <span class="product-info__content-text--bold">6 кА</span></p>
+                                    <p class="product-info__content-text">Номинальное напряжение: <span class="product-info__content-text--bold">230B</span></p>
+                                    <p class="product-info__content-text">Характеристика срабатывания: <span class="product-info__content-text--bold">C</span></p>
+                                    <p class="product-info__content-text">Для скрытого монтажа:  <span class="product-info__content-text--bold">Нет</span></p>
+                                    <p class="product-info__content-text">Номинальная отключающая способность в соответствии с EN 60898: <span class="product-info__content-text--bold">6 кА</span></p>
+                                    <p class="product-info__content-text">Номинальное напряжение: <span class="product-info__content-text--bold">230B</span></p>
+                                    <p class="product-info__content-text">Характеристика срабатывания: <span class="product-info__content-text--bold">C</span></p>
+                                    <p class="product-info__content-text">Для скрытого монтажа:  <span class="product-info__content-text--bold">Нет</span></p>
+                                </section>
+                                <section class="">
+                                    <h2 class="product-info__content-h2">Производители</h2>
+                                    <ul class="product-info__manufacturers-list">
+                                        <li><img src="./images/partner-1.png" alt=""></li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <section class="product-info__content-description" id="linkDescription">
+                                <h2 class="product-info__content-h2">Описание</h2>
+                                <p class="product-info__content-text">Автоматические выключатели дифференциального тока (АВДТ, диф. автомат) используются в схемах при необходимости защиты потребителя от перегрузки и короткого замыкания, а человека от поражения электрическим током.</p>
+                            </section>
+                            <section class="product-info__content-questions" id="linkQuestions">
+                                <h2 class="product-info__content-h2">Вопросы</h2>
+                                <h4 class="product-info__content-h4">Чем отличается автоматический выключатель от дифференциального?</h4>
+                                <p class="product-info__content-text">Первое – выключатель дифференциальный. По сути, это УЗО, которое защищает только от токов утечки. Второй – автоматический выключатель дифференциального тока. Здесь уже говорим о классическом диффавтомате, который предотвращает и КЗ, и утечки, и перегрев.</p>
+                                <h4 class="product-info__content-h4">Как работает дифференциальный автоматический выключатель?</h4>
+                                <p class="product-info__content-text">Принцип его работы состоит в том, что при протекании тока больше номинального (вследствие перегрузок) биметаллическая пластина теплового расцепителя нагревается и приводит в действие механизм взвода и расцепления. В результате силовые контакты размыкаются. Электромагнитный расцепитель работает как реле тока.</p>
+                            </section>
+                            <section class="product-info__content-delivery" id="linkDelivery">
+                                <h2 class="product-info__content-h2">Способы получения</h2>
+                                <ul class="product-info__content-delivery-list">
+                                    <li class="product-info__content-delivery-item">
+                                        <a href="" class="product-info__content-delivery-link">
+                                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_9_784)">
+                                                <path d="M11.5 1.91666C7.79603 1.91666 4.79166 4.92103 4.79166 8.62499C4.79166 13.6562 11.5 21.0833 11.5 21.0833C11.5 21.0833 18.2083 13.6562 18.2083 8.62499C18.2083 4.92103 15.2039 1.91666 11.5 1.91666ZM11.5 11.0208C10.1775 11.0208 9.10416 9.94749 9.10416 8.62499C9.10416 7.30249 10.1775 6.22916 11.5 6.22916C12.8225 6.22916 13.8958 7.30249 13.8958 8.62499C13.8958 9.94749 12.8225 11.0208 11.5 11.0208Z" fill="#215BD4"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_9_784">
+                                                <rect width="23" height="23" fill="#215BD4"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="product-info__content-delivery-method">Самовывоз:</p>
+                                            <p class="product-info__content-delivery-text">сегодня,  из 1 магазина</p>
+                                        </a>
+                                    </li>
+                                    <li class="product-info__content-delivery-item">
+                                        <a href="" class="product-info__content-delivery-link">
+                                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_130_2333)">
+                                                <path d="M11.5 0C12.3281 0 13 0.671562 13 1.5V3H14.5844C15.1156 3 15.5969 3.20937 16 3.58437L18.4156 6C18.7906 6.375 19 6.88438 19 7.41563V11C19.5531 11 20 11.4469 20 12C20 12.5531 19.5531 13 19 13H18C18 14.6562 16.6562 16 15 16C13.3156 16 12 14.6562 12 13H8C8 14.6562 6.65625 16 5 16C3.31562 16 2 14.6562 2 13H1.5C0.671562 13 0 12.3281 0 11.5V1.5C0 0.671562 0.671562 0 1.5 0H11.5ZM13 5V8H17V7.41563L14.5844 5H13ZM5 11.5C4.17188 11.5 3.5 12.1719 3.5 13C3.5 13.8281 4.17188 14.5 5 14.5C5.82812 14.5 6.5 13.8281 6.5 13C6.5 12.1719 5.82812 11.5 5 11.5ZM15 14.5C15.8281 14.5 16.5 13.8281 16.5 13C16.5 12.1719 15.8281 11.5 15 11.5C14.1719 11.5 13.5 12.1719 13.5 13C13.5 13.8281 14.1719 14.5 15 14.5Z" fill="#215BD4"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_130_2333">
+                                                <rect width="20" height="16" fill="white"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <p class="product-info__content-delivery-method">Доставка курьером:</p>
+                                            <p class="product-info__content-delivery-text">сегодня,  от 150 р.</p>
+                                        </a>
+                                    </li>
+                                    <li class="product-info__content-delivery-item">
+                                        <a href="" class="product-info__content-delivery-link">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 5.625V14.625L9 18L18 14.625V5.625L9 9L0 5.625Z" fill="#215BD4"/>
+                                                <path d="M0 4.5L9 7.875L18 4.5L9 1.125L0 4.5Z" fill="#215BD4"/>
+                                            </svg>
+                                            <p class="product-info__content-delivery-method">Транспортная компания:</p>
+                                            <p class="product-info__content-delivery-text">Рассчитать стоимость доставки</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </section>
+                    </div>
+                    <aside class="product-info__action-panel">
+                        <div class="product-info__action-panel-container">
+                            <button class="product-info__action-panel-button">
+                                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.3094 3.72852C13.791 3.72852 12.3984 4.43828 11.5 5.60625C10.6016 4.43828 9.20898 3.72852 7.69062 3.72852C5.03574 3.72852 2.875 5.89824 2.875 8.5666C2.875 9.81992 3.35117 11.0104 4.21816 11.9178L11.0104 18.7773L11.5 19.2715L11.9896 18.7773L18.6516 12.048C19.5949 11.1361 20.125 9.89629 20.125 8.5666C20.125 5.89824 17.9643 3.72852 15.3094 3.72852Z" fill="#215BD4"/>
+                                </svg>
+                                <span>В избранное</span>
+                            </button>
+                            <button class="product-info__action-panel-button product-info__action-panel-button--compare">
+                                <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_9_805)">
+                                    <path d="M1.39999 21.8C0.599994 21.8 0 21.2 0 20.4V13.7C0 12.9 0.599994 12.3 1.39999 12.3C2.19999 12.3 2.80002 12.9 2.80002 13.7V20.4C2.80002 21.2 2.19999 21.8 1.39999 21.8Z" fill="#215BD4"/>
+                                    <path d="M7.29999 21.9C6.49999 21.9 5.89996 21.3 5.89996 20.5V1.29999C5.89996 0.499988 6.49999 -0.100006 7.29999 -0.100006C8.09999 -0.100006 8.69998 0.499988 8.69998 1.29999V20.5C8.69998 21.3 8.09999 21.9 7.29999 21.9Z" fill="#215BD4"/>
+                                    <path d="M13.6 21.6C12.8 21.6 12.2 21 12.2 20.2V7.10001C12.2 6.30001 12.8 5.70001 13.6 5.70001C14.4 5.70001 15 6.30001 15 7.10001V20.2C15 21 14.4 21.6 13.6 21.6Z" fill="#215BD4"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_9_805">
+                                    <rect width="15" height="22" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>  
+                                <span>Сравнить</span>
+                            </button>
+                        </div>
+                        <p class="product-info__action-panel-stock">В наличии 12 345 шт.</p>
+                        <div class="product-info__action-panel-purchase">
+                            <p class="product-info__action-panel-price">3010406,50 ₽</p>
+                            <button class="primary-button product-info__action-panel-button-basket">В корзину</button>
+                            <button class="product-info__action-panel-button-buy">Купить в 1 клик</button>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+            <section class="recommended-products__section" id="linkRecommendedProducts">
+                <div class="container">
+                    <h2 class="product-info__content-h2">Рекомендуемые товары</h2>
+                    <ul class="recommended-products__list">
+                        <li class="recommended-products__item">
+                            <a href="/product-page.html" class="goods__link">
+                                <div class="goods__buttons-wrapper">
+                                    <button class="goods__button goods__button--favorite">
+                                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.3094 3.72852C13.791 3.72852 12.3984 4.43828 11.5 5.60625C10.6016 4.43828 9.20898 3.72852 7.69062 3.72852C5.03574 3.72852 2.875 5.89824 2.875 8.5666C2.875 9.81992 3.35117 11.0104 4.21816 11.9178L11.0104 18.7773L11.5 19.2715L11.9896 18.7773L18.6516 12.048C19.5949 11.1361 20.125 9.89629 20.125 8.5666C20.125 5.89824 17.9643 3.72852 15.3094 3.72852Z" fill="#215BD4"/>
+                                        </svg>
+                                    </button>
+                                    <button class="goods__button goods__button--compare">
+                                        <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_9_805)">
+                                            <path d="M1.39999 21.8C0.599994 21.8 0 21.2 0 20.4V13.7C0 12.9 0.599994 12.3 1.39999 12.3C2.19999 12.3 2.80002 12.9 2.80002 13.7V20.4C2.80002 21.2 2.19999 21.8 1.39999 21.8Z" fill="#215BD4"/>
+                                            <path d="M7.29999 21.9C6.49999 21.9 5.89996 21.3 5.89996 20.5V1.29999C5.89996 0.499988 6.49999 -0.100006 7.29999 -0.100006C8.09999 -0.100006 8.69998 0.499988 8.69998 1.29999V20.5C8.69998 21.3 8.09999 21.9 7.29999 21.9Z" fill="#215BD4"/>
+                                            <path d="M13.6 21.6C12.8 21.6 12.2 21 12.2 20.2V7.10001C12.2 6.30001 12.8 5.70001 13.6 5.70001C14.4 5.70001 15 6.30001 15 7.10001V20.2C15 21 14.4 21.6 13.6 21.6Z" fill="#215BD4"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_9_805">
+                                            <rect width="15" height="22" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <img src="./images/new-1.jpeg" alt="" class="goods__item-image">
+                                <p class="goods__product-type">Заглушка для лотка сборная</p>
+                                <p class="goods__product-name">Заглушка для лотка сборная TC 200х100 DKC 30267</p>
+                                <p class="goods__product-vendor-code">Артикул: JFH2392-33</p>
+                                <p class="goods__product-availability">Наличие: 5000</p>
+                                <p class="goods__product-cost">827.04 руб.</p>
+                                <button class="goods__button-basket"></button>
+                            </a>
+                        </li>
+                        <li class="recommended-products__item">
+                            <a href="/product-page.html" class="goods__link">
+                                <div class="goods__buttons-wrapper">
+                                    <button class="goods__button goods__button--favorite">
+                                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.3094 3.72852C13.791 3.72852 12.3984 4.43828 11.5 5.60625C10.6016 4.43828 9.20898 3.72852 7.69062 3.72852C5.03574 3.72852 2.875 5.89824 2.875 8.5666C2.875 9.81992 3.35117 11.0104 4.21816 11.9178L11.0104 18.7773L11.5 19.2715L11.9896 18.7773L18.6516 12.048C19.5949 11.1361 20.125 9.89629 20.125 8.5666C20.125 5.89824 17.9643 3.72852 15.3094 3.72852Z" fill="#215BD4"/>
+                                        </svg>
+                                    </button>
+                                    <button class="goods__button goods__button--compare">
+                                        <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_9_805)">
+                                            <path d="M1.39999 21.8C0.599994 21.8 0 21.2 0 20.4V13.7C0 12.9 0.599994 12.3 1.39999 12.3C2.19999 12.3 2.80002 12.9 2.80002 13.7V20.4C2.80002 21.2 2.19999 21.8 1.39999 21.8Z" fill="#215BD4"/>
+                                            <path d="M7.29999 21.9C6.49999 21.9 5.89996 21.3 5.89996 20.5V1.29999C5.89996 0.499988 6.49999 -0.100006 7.29999 -0.100006C8.09999 -0.100006 8.69998 0.499988 8.69998 1.29999V20.5C8.69998 21.3 8.09999 21.9 7.29999 21.9Z" fill="#215BD4"/>
+                                            <path d="M13.6 21.6C12.8 21.6 12.2 21 12.2 20.2V7.10001C12.2 6.30001 12.8 5.70001 13.6 5.70001C14.4 5.70001 15 6.30001 15 7.10001V20.2C15 21 14.4 21.6 13.6 21.6Z" fill="#215BD4"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_9_805">
+                                            <rect width="15" height="22" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <img src="./images/new-1.jpeg" alt="" class="goods__item-image">
+                                <p class="goods__product-type">Заглушка для лотка сборная</p>
+                                <p class="goods__product-name">Заглушка для лотка сборная TC 200х100 DKC 30267</p>
+                                <p class="goods__product-vendor-code">Артикул: JFH2392-33</p>
+                                <p class="goods__product-availability">Наличие: 5000</p>
+                                <p class="goods__product-cost">827.04 руб.</p>
+                                <button class="goods__button-basket"></button>
+                            </a>
+                        </li>
+                        <li class="recommended-products__item">
+                            <a href="" class="goods__link">
+                                <div class="goods__buttons-wrapper">
+                                    <button class="goods__button goods__button--favorite">
+                                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.3094 3.72852C13.791 3.72852 12.3984 4.43828 11.5 5.60625C10.6016 4.43828 9.20898 3.72852 7.69062 3.72852C5.03574 3.72852 2.875 5.89824 2.875 8.5666C2.875 9.81992 3.35117 11.0104 4.21816 11.9178L11.0104 18.7773L11.5 19.2715L11.9896 18.7773L18.6516 12.048C19.5949 11.1361 20.125 9.89629 20.125 8.5666C20.125 5.89824 17.9643 3.72852 15.3094 3.72852Z" fill="#215BD4"/>
+                                        </svg>
+                                    </button>
+                                    <button class="goods__button goods__button--compare">
+                                        <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_9_805)">
+                                            <path d="M1.39999 21.8C0.599994 21.8 0 21.2 0 20.4V13.7C0 12.9 0.599994 12.3 1.39999 12.3C2.19999 12.3 2.80002 12.9 2.80002 13.7V20.4C2.80002 21.2 2.19999 21.8 1.39999 21.8Z" fill="#215BD4"/>
+                                            <path d="M7.29999 21.9C6.49999 21.9 5.89996 21.3 5.89996 20.5V1.29999C5.89996 0.499988 6.49999 -0.100006 7.29999 -0.100006C8.09999 -0.100006 8.69998 0.499988 8.69998 1.29999V20.5C8.69998 21.3 8.09999 21.9 7.29999 21.9Z" fill="#215BD4"/>
+                                            <path d="M13.6 21.6C12.8 21.6 12.2 21 12.2 20.2V7.10001C12.2 6.30001 12.8 5.70001 13.6 5.70001C14.4 5.70001 15 6.30001 15 7.10001V20.2C15 21 14.4 21.6 13.6 21.6Z" fill="#215BD4"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_9_805">
+                                            <rect width="15" height="22" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <img src="./images/goods-item-1.png" alt="" class="goods__item-image">
+                                <p class="goods__product-type">Лампа галогенная</p>
+                                <p class="goods__product-name">Лампа галогенная 94 209 JC 10 Вт clear G4 12Вт 2000h Navigator</p>
+                                <p class="goods__product-vendor-code">Артикул: JFH2392-33</p>
+                                <p class="goods__product-availability">Наличие: 1000</p>
+                                <p class="goods__product-cost">27.05 руб.</p>
+                                <button class="goods__button-basket"></button>
+                            </a>
+                        </li>
+                        <li class="recommended-products__item">
+                            <a href="" class="goods__link">
+                                <div class="goods__buttons-wrapper">
+                                    <button class="goods__button goods__button--favorite">
+                                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.3094 3.72852C13.791 3.72852 12.3984 4.43828 11.5 5.60625C10.6016 4.43828 9.20898 3.72852 7.69062 3.72852C5.03574 3.72852 2.875 5.89824 2.875 8.5666C2.875 9.81992 3.35117 11.0104 4.21816 11.9178L11.0104 18.7773L11.5 19.2715L11.9896 18.7773L18.6516 12.048C19.5949 11.1361 20.125 9.89629 20.125 8.5666C20.125 5.89824 17.9643 3.72852 15.3094 3.72852Z" fill="#215BD4"/>
+                                        </svg>
+                                    </button>
+                                    <button class="goods__button goods__button--compare">
+                                        <svg width="15" height="22" viewBox="0 0 15 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_9_805)">
+                                            <path d="M1.39999 21.8C0.599994 21.8 0 21.2 0 20.4V13.7C0 12.9 0.599994 12.3 1.39999 12.3C2.19999 12.3 2.80002 12.9 2.80002 13.7V20.4C2.80002 21.2 2.19999 21.8 1.39999 21.8Z" fill="#215BD4"/>
+                                            <path d="M7.29999 21.9C6.49999 21.9 5.89996 21.3 5.89996 20.5V1.29999C5.89996 0.499988 6.49999 -0.100006 7.29999 -0.100006C8.09999 -0.100006 8.69998 0.499988 8.69998 1.29999V20.5C8.69998 21.3 8.09999 21.9 7.29999 21.9Z" fill="#215BD4"/>
+                                            <path d="M13.6 21.6C12.8 21.6 12.2 21 12.2 20.2V7.10001C12.2 6.30001 12.8 5.70001 13.6 5.70001C14.4 5.70001 15 6.30001 15 7.10001V20.2C15 21 14.4 21.6 13.6 21.6Z" fill="#215BD4"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_9_805">
+                                            <rect width="15" height="22" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <img src="./images/new-2.jpeg" alt="" class="goods__item-image">
+                                <p class="goods__product-type">Выключатель автоматический</p>
+                                <p class="goods__product-name">Выключатель автоматический 3п 16А 35кА ВА 88-33 IEK SVA20-3-0016</p>
+                                <p class="goods__product-vendor-code">Артикул: JFH2392-33</p>
+                                <p class="goods__product-availability">Наличие: 1000</p>
+                                <p class="goods__product-cost">27.05 руб.</p>
+                                <button class="goods__button-basket"></button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section class="footer__section">
+                <div class="container footer__container">
+                        <ul class="footer__list footer__list-info">
+                            <li>
+                                <div class="footer__heading">Информация</div>
+                            </li>
+                            <li><a href="" class="footer__link--text">О магазине</a></li>
+                            <li><a href="" class="footer__link--text">Доставка и оплата</a></li>
+                            <li><a href="" class="footer__link--text">Условия соглашения</a></li>
+                            <li><a href="" class="footer__link--text">Связаться с нами</a></li>
+                            <li><a href="" class="footer__link--text">Возврат товара</a></li>
+                            <li><a href="" class="footer__link--text">Производители</a></li>
+                            <li><a href="" class="footer__link--text">Товары со скидкой</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list-user">
+                            <li>
+                                <div class="footer__heading">Личный кабинет</div>
+                            </li>
+                            <li><a href="" class="footer__link--text">Личный кабинет</a></li>
+                            <li><a href="" class="footer__link--text">История заказов</a></li>
+                            <li><a href="" class="footer__link--text">Мои закладки</a></li>
+                            <li><a href="" class="footer__link--text">Рассылка новостей</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list-contacts">
+                            <li>
+                                <div class="footer__heading">Наши контакты</div>
+                            </li>
+                            <li>
+                                <a href="" class="footer__contacts footer__contacts--address footer__link--text">Россия , г.Москва, ул.Артюхиной, д.4,  офис 308</a></li>
+                            <li>
+                                <a href="" class="footer__contacts footer__contacts--phone footer__link--text">+7 (495) 785-35-05</a></li>
+                            <li>
+                                <a href="" class="footer__contacts footer__contacts--email footer__link--text">info@monstervolt.ru</a></li>
+                            <li>
+                                <p class="footer__contacts footer__contacts--work-time">ПН-ПТ: 09:00 - 18:00</p></li>
+                            <li>
+                                <p class="footer__contacts footer__contacts--weekend">СБ-ВС: Выходные</p></li>
+                            <li class="footer__contacts-socials-wrapper">
+                                <a href="" class="footer__contacts--telegram"></a>
+                                <a href="" class="footer__contacts--whatsapp"></a>
+                                <a href="" class="footer__contacts--viber"></a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list footer__list-phones">
+                            <li>
+                                <div class="footer__heading">Телефоны</div>
+                            </li>
+                            <li><a href="" class="footer__link--text">Сматрфоны</a></li>
+                            <li><a href="" class="footer__link--text">Мобильные телефоны</a></li>
+                            <li><a href="" class="footer__link--text">Умные часы</a></li>
+                            <li><a href="" class="footer__link--text">Аксессуары для телефонов</a></li>
+                            <li><a href="" class="footer__link--text">Чехлы</a></li>
+                            <li><a href="" class="footer__link--text">Планшеты</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list-technics">
+                            <li>
+                                <div class="footer__heading">Портативная техника</div>
+                            </li>
+                            <li><a href="" class="footer__link--text">Очки виртуальной реальности</a></li>
+                            <li><a href="" class="footer__link--text">Портативная акустика</a></li>
+                            <li><a href="" class="footer__link--text">Квадрокоптеры</a></li>
+                            <li><a href="" class="footer__link--text">Цифровые плееры</a></li>
+                            <li><a href="" class="footer__link--text">Электронные книги</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list-laptops">
+                            <li>
+                                <div class="footer__heading">Ноутбуки</div>
+                            </li>
+                            <li><a href="" class="footer__link--text">Ноутбуки и планшеты</a></li>
+                            <li><a href="" class="footer__link--text">Игровые ноутбуки</a></li>
+                            <li><a href="" class="footer__link--text">Планшеты</a></li>
+                            <li><a href="" class="footer__link--text">Онлайн-кинотеатры</a></li>
+                            <li><a href="" class="footer__link--text">Электронные книги</a></li>
+                            <li><a href="" class="footer__link--text">Аксессуары для ноутбуков</a></li>
+                        </ul>
+                        <ul class="footer__list footer__list-audio">
+                            <li>
+                                <div class="footer__heading">Аудиотехника</div>
+                            </li>
+                            <li><a href="" class="footer__link--text">Наушники и гарнитура</a></li>
+                            <li><a href="" class="footer__link--text">Акустика и колонки</a></li>
+                            <li><a href="" class="footer__link--text">Микрофоны и аксессуары</a></li>
+                            <li><a href="" class="footer__link--text">MP3-плееры</a></li>
+                            <li><a href="" class="footer__link--text">Радиоприемники</a></li>
+                            <li><a href="" class="footer__link--text">Магнитолы</a></li>
+                            <li><a href="" class="footer__link--text">Hi-Res плееры</a></li>
+                        </ul>
+                    </div>
+            </section>
+            <section class="footer__copyrights-section">
+                <div class="container footer__copyrights-container">
+                    <a href="" class="footer__copyrights-logo"></a>
+                    <p class="footer__copyrights-name">Интернет магазин Monstervolt, 2023</p>
+                    <div class="footer__copyrights-payment-container">
+                        <p class="footer__copyrights-payment-description">
+                            Принимаем к оплате:
+                        </p>
+                        <ul class="footer__copyrights-payment-list">
+                            <li class="footer__copyrights-payment-item footer__copyrights-payment-item--1"></li>
+                            <li class="footer__copyrights-payment-item footer__copyrights-payment-item--2"></li>
+                            <li class="footer__copyrights-payment-item footer__copyrights-payment-item--3"></li>
+                            <li class="footer__copyrights-payment-item footer__copyrights-payment-item--4"></li>
+                            <li class="footer__copyrights-payment-item footer__copyrights-payment-item--5"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script defer src="./action-bar.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+        <script type="text/javascript">
+            $('.product-info__slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                asNavFor: '.product-info__slider-nav'
+            });
+            $('.product-info__slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.product-info__slider',
+                focusOnSelect: true
+            });
+        </script>
+    </body>
+</html>
